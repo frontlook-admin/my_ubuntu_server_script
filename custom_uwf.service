@@ -1,0 +1,8 @@
+[Unit]
+Description=uwf modifier
+
+[Service]
+ExecStart=/etc/init.d/mystartup.sh
+
+[Install]
+WantedBy=multi-user.target
