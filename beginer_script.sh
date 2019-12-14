@@ -1,4 +1,6 @@
 #!/bin/sh
+
+apt update & apt upgrade -y
 apt install openssh
 apt install mysql-server
 cp mystartup.sh /etc/init.d/mystartup.sh
